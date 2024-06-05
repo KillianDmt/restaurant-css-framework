@@ -9,7 +9,7 @@
       }
   
       .bg-image {
-        background-image: url('./images/BgContact.png'); /* Remplacez par le chemin de votre image */
+        background-image: url('./images/BgContact.png'); 
         background-size: cover;
         background-position: center;
         height: 100%;
@@ -39,7 +39,7 @@
         <div class="container-fluid">
           <a class="navbar-brand m-r-5 m-l-5" href="#">**Branding**</a>
             <div class="d-flex ">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -73,38 +73,39 @@
       </nav>
 
         <!--Contact-->
-
-        <div class="container mt-5 form-container">
-          <h2>Formulaire de Contact</h2>
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Nom</label>
-              <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
-            </div>
-            <div class="mb-3">
-              <label for="firstname" class="form-label">Prénom</label>
-              <input type="text" class="form-control" id="name" placeholder="Votre prénom" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Votre email" required>
-            </div>
-            <div class="mb-3">
-              <label for="reason" class="form-label">Raison du contact</label>
-              <select class="form-select" id="reason" required>
-                <option value="">Sélectionnez une raison</option>
-                <option value="support">Plats Traiteurs</option>
-                <option value="sales">Réservations</option>
-                <option value="feedback">Menus et Allergènes</option>
-                <option value="other">Autres</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Votre message" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Envoyer</button>
-          </form>
+        <div class="bg-image opacity-75">
+          <div class="container mt-5 form-container">
+            <h2>Formulaire de Contact</h2>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+              </div>
+              <div class="mb-3">
+                <label for="firstname" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre prénom" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre email" required>
+              </div>
+              <div class="mb-3">
+                <label for="reason" class="form-label">Raison du contact</label>
+                <select class="form-select" id="reason" required>
+                  <option value="">Sélectionnez une raison</option>
+                  <option value="support">Plats Traiteurs</option>
+                  <option value="sales">Réservations</option>
+                  <option value="feedback">Menus et Allergènes</option>
+                  <option value="other">Autres</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Votre message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+          </div>
         </div>
 
 
@@ -169,16 +170,16 @@
               Page
             </h6>
             <p>
-              <a href="./index.html" class="text-reset">Acceuil</a>
+              <a href="./index.html" class="text-reset text-decoration-none">Acceuil</a>
             </p>
             <p>
-              <a href="./franchise.html" class="text-reset">Franchise</a>
+              <a href="./franchise.html" class="text-reset text-decoration-none">Franchise</a>
             </p>
             <p>
-              <a href="./galerie.html" class="text-reset">Galerie</a>
+              <a href="./galerie.html" class="text-reset text-decoration-none">Galerie</a>
             </p>
             <p>
-              <a href="./menu.html" class="text-reset">Menus</a>
+              <a href="./menu.html" class="text-reset text-decoration-none">Menus</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -190,16 +191,13 @@
               Où nous trouver ? <!--Carte,...-->
             </h6>
             <p>
-              <a href="#!" class="text-reset">Pricing</a>
+              <a href="#!" class="text-reset text-decoration-none">Facebook</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Settings</a>
+              <a href="#!" class="text-reset text-decoration-none">Mail</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
+              <a href="#!" class="text-reset text-decoration-none">Instagram</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -210,11 +208,11 @@
             <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
             <p><i class="fas fa-home me-3"></i> Bruxelles,  1000, Be</p>
             <p>
-              <i class="fas fa-envelope me-3"></i>
-              info@example.com
+              <a href="mailto:info@example.com" class="text-decoration-none text-reset"><i class="fas fa-envelope me-3"></i>
+              info@example.com</a>
             </p>
-            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            <a href="tel:+0123456788" class="text-decoration-none text-reset"><i class="fas fa-phone me-3"></i> + 01 234 567 88</a>
+            <p><a href="tel:+0123456788" class="text-decoration-none text-reset"><i class="fas fa-print me-3"></i> + 01 234 567 88</a></p>
           </div>
           <!-- Grid column -->
         </div>
