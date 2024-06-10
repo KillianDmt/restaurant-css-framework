@@ -17,10 +17,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Acceuil</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="franchise.html">Franchise</a>
+                    <a class="nav-link active" href="franchise.html">Franchise</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,7 +47,6 @@
       <!--Image trop lourde a charger, a changer-->
       <div class="card">
       <img src="./images/FranchiseHead.png" alt="Bannière"class="img-fluid card-img-top" style="width: auto;height: 75%;">
-      <p class="card-img-overlay text-end text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt excepturi quia odio necessitatibus quibusdam eaque omnis facilis! Possimus natus aspernatur libero neque odio. Vel sint provident dolor voluptates ipsa.</p>
     </div>
     <!---->
     <!--Row2-->
@@ -81,7 +80,7 @@
               <a href="./contact.html" class="btn btn-outline-secondary" type="button">Posez nous votre question...</a>
             </div>
             <div class="h-50 p-2 border"> <!--Enlever Controls?-->
-              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1QiFXPpPRj_NNY-fd7Y9U7NM6UfEjoVM&ehbc=2E312F&noprof=1" width="100%" height="100%"></iframe>
+              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1QiFXPpPRj_NNY-fd7Y9U7NM6UfEjoVM&ehbc=2E312F&noprof=1" width="100%" height="100%" aria-controls="none"></iframe>
             </div>
           </div>
         </div>
@@ -98,7 +97,54 @@
     <!--Row 4-->
     <!--Utiliser un tableau ? -->
     <div class="container schedule">
-      
+      <div class="text-center">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="bg-secondary" scope="col">Jour</th>
+              <th class="bg-secondary" scope="col">Heures d'ouverture</th>
+              <th class="bg-secondary" scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="bg-secondary" scope="row">Lundi</th>
+              <td>Fermé</td>
+              <td>18h-22h30</td>
+            </tr>
+            <tr>
+              <th class="bg-secondary" scope="row">Mardi</th>
+              <td>11h-15h</td>
+              <td>Fermé</td>
+            </tr>
+            <tr>
+              <th class="bg-secondary" scope="row">Mercredi</th>
+              <td>11h-15h</td>
+              <td>18h-22h30</td>
+            </tr>
+            <tr>
+              <th class="bg-secondary" scope="row">Jeudi</th>
+              <td>11h-15h</td>
+              <td>18h-22h30</td>
+            </tr>
+            <tr>
+              <th class="bg-secondary" scope="row">Vendredi</th>
+              <td>11h-15h</td>
+              <td>18h-22h30</td>
+            </tr>
+            <tr>
+              <th class="bg-secondary" scope="row">Samedi</th>
+              <td>11h-15h</td>
+              <td>17h-23h30</td>
+            </tr>
+            <tr>
+              <th class="bg-secondary" scope="row">Dimanche</th>
+              <td>Fermé</td>
+              <td>18h-22h30</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <!---->
