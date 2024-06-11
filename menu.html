@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carte du Restaurant</title>
+    <!--Fonts Awesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--FavIcons-->
+    <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <!--Boostrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand m-r-5 m-l-5" href="./franchise.html">De la Terre a la Table</a>
+            <div class="d-flex ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " href="index.html">Acceuil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="franchise.html">Franchise</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" aria-current="page" href="menu.html">Restaurant</a></li>
+                      <!--<li><a class="dropdown-item" href="#">Cave à vins</a></li>
+                      <li><a class="dropdown-item" href="#">Bar</a></li>-->
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galerie.html">Galerie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Image Banner ? A changer -->
+
+      <img src="./images/BannerGall.png" alt="Bannière"class="img-fluid">
+
+      <!--Menu-->
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Entrées
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <!--Entrees 1-->
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="w-100 p-5 text-white">
+                          <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border muted">
+                          <h2>Salade de Fraises et de fromage de chèvres <span class="badge bg-primary text-white rounded-pill">15e</span></h2>
+                          <p><span>Fraise fraîches, fromage de chèvre local, roquette et vinaigre balsamique</span></p>
+                          <!--<a href="#" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-title="Liste d'allergenes">Allergenes (:hover)</a>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <!--Entrées 2-->
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border">
+                          <h2>Gaspacho de concombre et menthe <span class="badge bg-primary text-white rounded-pill">15e</span></h2>
+                          <p>Concombre, yaourt grec, menthe fraîche, huile d'olive</p>
+                          <a href="#" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-title="Lait">Allergenes</a>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="w-100 p-5 text-white">
+                            <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="w-100 p-5 text-white">
+                          <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border">
+                          <h2>Tartare de saumon à l'avocat <span class="badge bg-primary text-white rounded-pill">15e</span></h2>
+                          <p>Saumon, avocat, citron vert, coriandre, échalotes</p>
+                          <a href="#" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-title="Poisson">Allergenes</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>            
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Plats
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="w-100 p-5 text-white">
+                          <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border">
+                          <h2>Poulet Rôti aux herbes et légumes du jardin <span class="badge bg-primary text-white rounded-pill">25e</span></h2>
+                          <p>Poulet fermier, carottes, courgettes, pommes de terre nouvelles, thym</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border">
+                          <h2>Filet de truite à la sauce aux agrumes <span class="badge bg-primary text-white rounded-pill">25e</span></h2>
+                          <p>Truite fraîche, sauces aux agrumes, asperges grillées, riz sauvage</p>
+                          <a href="#" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-title="Poisson">Allergenes</a>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="w-100 p-5 text-white">
+                            <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="w-100 p-5 text-white">
+                          <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border">
+                          <h2>Risotto aux asperges et aux petits pois <span class="badge bg-primary text-white rounded-pill">25e</span></h2>
+                          <p>Riz Arborio, asperges locales, petits pois, parmesan</p>
+                          <a href="#" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-title="Lait">Allergenes</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>           
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Desserts
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="w-100 p-5 text-white">
+                          <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border">
+                          <h2>Tarte aux fraises et à la rhubarbe <span class="badge bg-primary text-white rounded-pill">10e</span></h2>
+                          <p>Fraises, Rhubarbe, pâte sablée, crème pâtissière</p>                          
+                          <a href="#" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-title="Gluten, Oeuf, Lait">Allergenes</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border">
+                          <h2>Mousse au citron et basilic <span class="badge bg-primary text-white rounded-pill">10e</span></h2>
+                          <p>Citron frais, Basilic, crème fouettée légère</p>
+                          <a href="#" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-title="Lait, Oeuf">Allergenes</a>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="w-100 p-5 text-white">
+                            <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="container">
+                    <div class="row align-items-md-stretch">
+                      <div class="col-md-6">
+                        <div class="w-100 p-5 text-white">
+                          <img src="./images/Franch1.jpg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="h-100 p-5 border">
+                          <h2>Clafoutis au Cerises <span class="badge bg-primary text-white rounded-pill">10e</span></h2>
+                          <p>Cerises noires, pâte moelleuse, sucre vanillé</p>
+                          <a href="#" class="btn btn-outline-secondary" data-bs-toggle="tooltip" data-bs-title="Gluten, Oeuf, Lait">Allergenes</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>            
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Footer -->
+  <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>The Weekly Table
+            </h6>
+            <p>
+              Notre restaurant propose des plats locaux avec une carte changeante chaque semaine, garantissant fraîcheur, diversité et découvertes culinaires uniques à chaque visite.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Page
+            </h6>
+            <p>
+              <a href="./index.html" class="text-reset">Acceuil</a>
+            </p>
+            <p>
+              <a href="./franchise.html" class="text-reset">Franchise</a>
+            </p>
+            <p>
+              <a href="./galerie.html" class="text-reset">Galerie</a>
+            </p>
+            <p>
+              <a href="./menu.html" class="text-reset">Menus</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Où nous trouver ? <!--Carte,...-->
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Bruxelles,  1000, Be</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://github.com/KillianDmt">KillianDmt</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+      <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      //Init Tooltip
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
+  </body>
+</html>
